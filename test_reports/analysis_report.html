@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Hedging Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        h3 { color: #555; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #2c3e50; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .winner { background-color: #d5f5e3; }
+        .bad { background-color: #fadbd8; }
+        img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #ddd; border-radius: 4px; }
+        .footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #777; }
+        .metric-box { background-color: #ecf0f1; border-radius: 8px; padding: 15px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+<h1>Deep Hedging with DRL - Analysis Report</h1>
+<p><strong>Date:</strong> 2026-05-03 23:52:20</p>
+<hr>
+<h2>Executive Summary</h2>
+<div class="metric-box">
+<h3>Overall Winner: <span style="color:#27ae60;">DRL_PPO</span></h3>
+<ul>
+<li><strong>Sharpe Ratio:</strong> 13.697</li>
+<li><strong>Mean PnL:</strong> $72.72</li>
+<li><strong>Win Rate:</strong> 80.5%</li>
+<li><strong>Max Drawdown:</strong> -9.11%</li>
+</ul>
+</div>
+<h2>Performance Summary</h2>
+<table>
+<tr><th>Rank</th><th>Strategy</th><th>Sharpe</th><th>Return ($)</th><th>Win Rate</th><th>Max DD</th></tr>
+<tr class=""><td>3</td><td>DRL_PPO</td><td>13.697</td><td>$73</td><td>80.5%</td><td>-9.1%</td></tr>
+<tr class=""><td>2</td><td>Delta-Gamma</td><td>12.134</td><td>$68</td><td>77.0%</td><td>-17.2%</td></tr>
+<tr class=""><td>4</td><td>DRL_SAC</td><td>11.641</td><td>$71</td><td>76.5%</td><td>-18.1%</td></tr>
+<tr class="winner"><td>1</td><td>Black-Scholes</td><td>7.850</td><td>$46</td><td>68.5%</td><td>-36.1%</td></tr>
+</table>
+<h2>Risk Metrics</h2>
+<table>
+<tr><th>Strategy</th><th>VaR (95%)</th><th>CVaR (95%)</th><th>Sortino</th><th>Calmar</th></tr>
+<tr><td>DRL_PPO</td><td>$-62</td><td>$-92</td><td>32.982</td><td>7.980</td></tr>
+<tr><td>Delta-Gamma</td><td>$-69</td><td>$-110</td><td>24.113</td><td>3.946</td></tr>
+<tr><td>DRL_SAC</td><td>$-87</td><td>$-119</td><td>27.017</td><td>3.917</td></tr>
+<tr><td>Black-Scholes</td><td>$-98</td><td>$-136</td><td>16.535</td><td>1.271</td></tr>
+</table>
+<h2>Visualizations</h2>
+<img src="figures/portfolio_values.png" alt="Portfolio Values">
+<img src="figures/sharpe_ratio.png" alt="Sharpe Ratio">
+<img src="figures/var_comparison.png" alt="VaR Comparison">
+<img src="figures/risk_return_scatter.png" alt="Risk-Return Tradeoff">
+<img src="figures/drawdown_comparison.png" alt="Drawdown Comparison">
+<div class="footer">
+<p>Report generated on 2026-05-03 23:52:20</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+dataset,paths_count,percentage
+Training,60,60
+Validation,20,20
+Test,20,20

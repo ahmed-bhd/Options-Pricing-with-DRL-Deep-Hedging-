@@ -1,0 +1,121 @@
+Strategy,Type,Path,PnL
+Black-Scholes Delta,classical,0,-5.029201398639401
+Black-Scholes Delta,classical,1,-5.211828774472707
+Black-Scholes Delta,classical,2,-7.412406739268262
+Black-Scholes Delta,classical,3,-5.088690320404552
+Black-Scholes Delta,classical,4,-5.124567293284272
+Black-Scholes Delta,classical,5,-5.664291071757495
+Black-Scholes Delta,classical,6,-6.458904808947608
+Black-Scholes Delta,classical,7,-6.813772038190308
+Black-Scholes Delta,classical,8,-4.880422739545716
+Black-Scholes Delta,classical,9,-5.4903084963650315
+Black-Scholes Delta,classical,10,-5.490259491211986
+Black-Scholes Delta,classical,11,-6.43414079200339
+Black-Scholes Delta,classical,12,-4.860154818616394
+Black-Scholes Delta,classical,13,-4.720704386734926
+Black-Scholes Delta,classical,14,-5.507144418181342
+Black-Scholes Delta,classical,15,-5.281593765048754
+Black-Scholes Delta,classical,16,-5.667475471181163
+Black-Scholes Delta,classical,17,-6.153319927157284
+Black-Scholes Delta,classical,18,-5.556037994235645
+Black-Scholes Delta,classical,19,-4.500461361208153
+No Hedge,classical,0,-4.7657348621287525
+No Hedge,classical,1,-5.033681226681992
+No Hedge,classical,2,0.0
+No Hedge,classical,3,-10.240318183696033
+No Hedge,classical,4,0.0
+No Hedge,classical,5,0.0
+No Hedge,classical,6,0.0
+No Hedge,classical,7,0.0
+No Hedge,classical,8,0.0
+No Hedge,classical,9,-11.164060321926044
+No Hedge,classical,10,0.0
+No Hedge,classical,11,-3.2205363779610963
+No Hedge,classical,12,-7.344743108953821
+No Hedge,classical,13,0.0
+No Hedge,classical,14,0.0
+No Hedge,classical,15,-9.407965981236686
+No Hedge,classical,16,-21.228358030268254
+No Hedge,classical,17,-2.0092755000728317
+No Hedge,classical,18,0.0
+No Hedge,classical,19,-10.475003128614816
+Full Hedge,classical,0,0.1647698743378072
+Full Hedge,classical,1,-0.5633552559384327
+Full Hedge,classical,2,-8.58436961454592
+Full Hedge,classical,3,0.5396429721643301
+Full Hedge,classical,4,-0.04209955521542952
+Full Hedge,classical,5,-1.3703065718032832
+Full Hedge,classical,6,-6.159601939573037
+Full Hedge,classical,7,-2.4736485317585277
+Full Hedge,classical,8,-6.180809962254656
+Full Hedge,classical,9,-0.7613949597922272
+Full Hedge,classical,10,-1.2290077134537825
+Full Hedge,classical,11,-1.3411465339844995
+Full Hedge,classical,12,0.7696717043769183
+Full Hedge,classical,13,-6.79012728664803
+Full Hedge,classical,14,-7.443956312828291
+Full Hedge,classical,15,1.717087813966728
+Full Hedge,classical,16,-0.4861089713896689
+Full Hedge,classical,17,-0.4417262700868463
+Full Hedge,classical,18,-0.43651726529303403
+Full Hedge,classical,19,0.18352859219338313
+Constant 50% Hedge,classical,0,-2.3004824938954727
+Constant 50% Hedge,classical,1,-2.7985182413102123
+Constant 50% Hedge,classical,2,-4.29218480727296
+Constant 50% Hedge,classical,3,-4.850337605765851
+Constant 50% Hedge,classical,4,-0.02104977760771476
+Constant 50% Hedge,classical,5,-0.6851532859016416
+Constant 50% Hedge,classical,6,-3.0798009697865183
+Constant 50% Hedge,classical,7,-1.2368242658792639
+Constant 50% Hedge,classical,8,-3.090404981127328
+Constant 50% Hedge,classical,9,-5.962727640859136
+Constant 50% Hedge,classical,10,-0.6145038567268912
+Constant 50% Hedge,classical,11,-2.280841455972798
+Constant 50% Hedge,classical,12,-3.2875357022884515
+Constant 50% Hedge,classical,13,-3.395063643324015
+Constant 50% Hedge,classical,14,-3.7219781564141456
+Constant 50% Hedge,classical,15,-3.8454390836349788
+Constant 50% Hedge,classical,16,-10.857233500828961
+Constant 50% Hedge,classical,17,-1.225500885079839
+Constant 50% Hedge,classical,18,-0.21825863264651701
+Constant 50% Hedge,classical,19,-5.145737268210716
+DRL_PPO,drl,0,-4.532357398115948
+DRL_PPO,drl,1,-3.412543596835782
+DRL_PPO,drl,2,-4.29218480727296
+DRL_PPO,drl,3,-6.217221263132274
+DRL_PPO,drl,4,-1.15112478000011
+DRL_PPO,drl,5,-0.6851532859016416
+DRL_PPO,drl,6,-3.0798009697865183
+DRL_PPO,drl,7,-1.2368242658792639
+DRL_PPO,drl,8,-3.090404981127328
+DRL_PPO,drl,9,-7.235918365854971
+DRL_PPO,drl,10,-1.5364392842705428
+DRL_PPO,drl,11,-2.280841455972798
+DRL_PPO,drl,12,-4.668057544754838
+DRL_PPO,drl,13,-3.395063643324015
+DRL_PPO,drl,14,-3.7219781564141456
+DRL_PPO,drl,15,-5.924467622790154
+DRL_PPO,drl,16,-8.976921427720043
+DRL_PPO,drl,17,-1.225500885079839
+DRL_PPO,drl,18,-2.140326890438132
+DRL_PPO,drl,19,-6.365268014487064
+DRL_SAC,drl,0,-10.04181424471193
+DRL_SAC,drl,1,-2.7779191547617614
+DRL_SAC,drl,2,-9.025979149147043
+DRL_SAC,drl,3,-1.606003012646923
+DRL_SAC,drl,4,-5.462606309885089
+DRL_SAC,drl,5,-7.702380045498648
+DRL_SAC,drl,6,-2.846745485259466
+DRL_SAC,drl,7,-6.938485526577139
+DRL_SAC,drl,8,-2.7497136709330645
+DRL_SAC,drl,9,-9.373735192673593
+DRL_SAC,drl,10,-3.2219934465634563
+DRL_SAC,drl,11,-4.725174594837213
+DRL_SAC,drl,12,-4.1577398072215885
+DRL_SAC,drl,13,-2.143314299947766
+DRL_SAC,drl,14,-2.8328170198898697
+DRL_SAC,drl,15,-5.205463324129312
+DRL_SAC,drl,16,-8.674665794567261
+DRL_SAC,drl,17,-4.644873946433933
+DRL_SAC,drl,18,-7.249265752788406
+DRL_SAC,drl,19,-4.253242815292566
